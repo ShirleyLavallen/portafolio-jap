@@ -1,0 +1,79 @@
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory; 
+}
+
+img {
+    width: 150px;
+}
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    width: auto;
+    max-width: 100rem;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(110,104,110,0.52);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(110,104,110,0.52);
+    box-shadow: 0px 5px 15px 0px rgba(110,104,110,0.52);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#link{
+    background-color: rgba(59, 83, 203, 0.505);
+}
+
+
+h1, h2{
+    text-align: center;
+    color: rgb(60, 189, 129);
+}
+
+table{
+    background-color: rgba(204, 201, 201, 0.582);
+    text-align: center;
+    
+        margin-left: 30%;
+        margin-right: 30%;
+    
+}
+
+
+.perfilesSociales > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.perfilesSociales {
+    text-align: center;
+}
+
+
+.left-content{
+    float: left;
+    width: 30%;
+}
+.right-content{
+    float: right; /*Derecha*/
+    width: 70%;
+}
+.clear{
+    clear: both;
+}
+
+.container {
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    /**list-style: none;**/
+}
+ul > li {
+    margin: 1.5rem;
+
+}
